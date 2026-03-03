@@ -1,7 +1,7 @@
 pkgname_=WaveLogStoat
 pkgname=wavelogstoat
 pkgver=0.0.4
-pkgrel=1
+pkgrel=2
 pkgdesc='Go PKGBUILD Example'
 arch=('x86_64')
 url="https://github.com/int2001/$pkgname_"
