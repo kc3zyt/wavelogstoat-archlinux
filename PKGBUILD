@@ -23,7 +23,7 @@ build() {
 	#export CGO_LDeeFLAGS="${LDFLAGS}"
 	#export GOFLAGS="-buildmode=pie -trimpath -ldflags=-linkmode=external -mod=readonly -modcacherw"
 	go mod tidy
-	go build -o "$pkgname"
+	go build -buildvcs=false  -o "$pkgname"
 }
 
 check() {
